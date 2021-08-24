@@ -60,3 +60,52 @@ img {
 .me {
   width: 500px;
 }
+
+.title {
+  font-size: 30px;
+  color: darkred;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery__image {
+  width: 350px;
+  height: 200px;
+  border-bottom: solid 2px grey;
+}
+
+.gallery__item {
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+}
+.gallery__text {
+  font-size: 20px;
+  color: darkorange;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.games {
+  display: flex;
+  text-align: center;
+}
+
+.nav__title {
+  font-size: 25px;
+  color: blue;
+  font-weight: bold;
+  padding-top: 65px;
+}
+
+.nav__button {
+  display: block;
+  width: 100px;
+}
