@@ -64,17 +64,21 @@ img {
 .title {
   font-size: 30px;
   color: darkred;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery__image {
-  width: 350px;
+  width: 320px;
   height: 200px;
   border-bottom: solid 2px grey;
 }
@@ -100,12 +104,27 @@ img {
 
 .nav__title {
   font-size: 25px;
-  color: blue;
+  color: navy;
   font-weight: bold;
-  padding-top: 65px;
+  padding: 65px 15px 20px 0;
 }
 
 .nav__button {
   display: block;
   width: 100px;
+  height: 50px;
+  border: lightsalmon 5px solid;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: maroon;
+  margin-bottom: 10px;
+}
+
+.link__text {
+  color: skyblue;
+  text-transform: uppercase;
+}
+
+.gallery__text.monsters {
+  color: red;
 }
